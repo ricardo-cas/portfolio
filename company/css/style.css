@@ -16,6 +16,14 @@ ul {
   margin: 0;
 }
 
+.botao_1 {
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  padding: 0 20px 0 20px;
+  color: #ffffff;
+}
+
 /* header */
 header {
   background: #35424a;
@@ -82,3 +90,40 @@ header a:hover {
 }
 
 /* Novidades */
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/*  Caixas */
+
+#caixas {
+  margin-top: 20px;
+}
+
+.caixa {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#caixas .caixa img {
+  width: 90px;
+}
