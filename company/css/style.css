@@ -16,14 +16,6 @@ ul {
   margin: 0;
 }
 
-.botao_1 {
-  height: 38px;
-  background: #e8491d;
-  border: none;
-  padding: 0 20px 0 20px;
-  color: #ffffff;
-}
-
 /* header */
 header {
   background: #35424a;
@@ -74,9 +66,9 @@ header a:hover {
 
 #showcase {
   min-height: 480px;
-  background: url("https://source.unsplash.com/1600x900/?space") no-repeat 0 -400px;
+  background: url("https://source.unsplash.com/1600x900/?code") no-repeat 0;
   text-align: center;
-  color: #ffffff;
+  color: #ec0c0c;
 }
 
 #showcase h1 {
@@ -89,26 +81,12 @@ header a:hover {
   font-size: 20px;
 }
 
-/* Novidades */
-#newsletter {
-  padding: 15px;
+.botao_1 {
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  padding: 0 20px 0 20px;
   color: #ffffff;
-  background: #35424a;
-}
-
-#newsletter h1 {
-  float: left;
-}
-
-#newsletter form {
-  float: right;
-  margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-  padding: 4px;
-  height: 25px;
-  width: 250px;
 }
 
 /*  Caixas */
@@ -118,12 +96,20 @@ header a:hover {
 }
 
 .caixa {
-  float: left;
-  width: 30%;
+  /* float: left; */
+  width: 20%;
   padding: 10px;
   text-align: center;
 }
 
 #caixas .caixa img {
   width: 90px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
 }
