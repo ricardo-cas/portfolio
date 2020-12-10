@@ -1,0 +1,107 @@
+/* CSS HEX */
+--carolina-blue: #4d9de0ff;
+--indian-red: #e15554ff;
+--saffron: #e1bc29ff;
+--oxford-blue: #161b33ff;
+--medium-sea-green: #3bb273ff;
+
+/* CSS HSL */
+--carolina-blue: hsla(207, 70%, 59%, 1);
+--indian-red: hsla(0, 70%, 61%, 1);
+--saffron: hsla(48, 75%, 52%, 1);
+--oxford-blue: hsla(230, 40%, 14%, 1);
+--medium-sea-green: hsla(148, 50%, 46%, 1);
+
+/* SCSS HEX */
+$carolina-blue: #4d9de0ff;
+$indian-red: #e15554ff;
+$saffron: #e1bc29ff;
+$oxford-blue: #161b33ff;
+$medium-sea-green: #3bb273ff;
+
+/* SCSS HSL */
+$carolina-blue: hsla(207, 70%, 59%, 1);
+$indian-red: hsla(0, 70%, 61%, 1);
+$saffron: hsla(48, 75%, 52%, 1);
+$oxford-blue: hsla(230, 40%, 14%, 1);
+$medium-sea-green: hsla(148, 50%, 46%, 1);
+
+/* SCSS RGB */
+$carolina-blue: rgba(77, 157, 224, 1);
+$indian-red: rgba(225, 85, 84, 1);
+$saffron: rgba(225, 188, 41, 1);
+$oxford-blue: rgba(22, 27, 51, 1);
+$medium-sea-green: rgba(59, 178, 115, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(
+  0deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-right: linear-gradient(
+  90deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-bottom: linear-gradient(
+  180deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-left: linear-gradient(
+  270deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-top-right: linear-gradient(
+  45deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-bottom-right: linear-gradient(
+  135deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-top-left: linear-gradient(
+  225deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-bottom-left: linear-gradient(
+  315deg,
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
+$gradient-radial: radial-gradient(
+  #4d9de0ff,
+  #e15554ff,
+  #e1bc29ff,
+  #161b33ff,
+  #3bb273ff
+);
