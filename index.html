@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <!-- Link para o arquivo de estilo CSS, que limpa os espaços desnecessários do navegador -->
+    <!-- Link para o arquivo de estilo CSS, que limpa os espaços desnecessários do div class = "lading"egador -->
     <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
     <link rel="stylesheet" href="./main-style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -51,20 +51,37 @@
       content="Basic landing page for showcase projects that i've build. Project for learning html and css"
     />
     <!-- título da pagina -->
-    <title>Projects | Ricardo Digital</title>
+    <title>Menu | Ricardo Digital</title>
   </head>
   <body>
     <main>
-      <div id="projects">
-        <nav>
-          <ul>
-            <li><a href="./company/index.html">Company Project</a></li>
-            <li><a href="./photography/index.html">Photography Project</a></li>
-            <li><a href="http://www.ricardo.digital/">Personal Website</a></li>
-            <li><a href="#webprofile">Personal Profile</a></li>
-          </ul>
-        </nav>
+      <div class="lading">
+        <div id="landing-text">
+          <div id="landing-inner-text">
+            <h1>Conheça os projetos</h1>
+            <h2>Esta página está em constante evolução, visite-a sempre.</h2>
+            <!-- lista dos projetos -->
+            <ul>
+              <li>
+                <a href="./company/index.html" class="btn">Company Project</a>
+              </li>
+              <li>
+                <a href="./photography/index.html" class="btn"
+                  >Photography Project</a
+                >
+              </li>
+              <li>
+                <a href="http://www.ricardo.digital/" class="btn"
+                  >Personal Website</a
+                >
+              </li>
+              <li><a href="#webprofile" class="btn">Personal Profile</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
+    <!-- rodapé -->
+    <footer>Copyright &copy; Ricardo Digital</footer>
   </body>
 </html>
