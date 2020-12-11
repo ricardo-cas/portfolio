@@ -1,0 +1,46 @@
+/* usando google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background: #35424a; */
+  /* background: #4d9de0ff; */
+  height: auto;
+}
+
+.nav {
+  margin: 10px;
+  text-align: center;
+  border-top: dotted 1px #000000;
+  border-bottom: dotted 1px #000000;
+  background: seagreen;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.nav ul {
+  padding: 2rem;
+}
+
+.nav li {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #333;
+}
+
+.nav a {
+  text-decoration: none;
+}
+main {
+  max-width: 1200px;
+  margin: 10px;
+}
+img {
+  /* max-width: 900px; */
+  height: auto;
+  width: 100%;
+}
