@@ -67,6 +67,15 @@ a.marca {
   font-size: 3rem;
   font-weight: bold;
 }
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+}
 /* Imagens */
 img {
   border-radius: 0.5rem;
@@ -90,4 +99,13 @@ img.medio {
 
 .card-body > * {
   margin-bottom: 0.5rem;
+}
+
+.preco {
+  font-size: 2rem;
+}
+
+/* rating */
+.rating span {
+  color: #f0c040;
 }
