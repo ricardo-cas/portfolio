@@ -6,12 +6,11 @@ body {
   margin: 0;
   height: 100vh;
   font-size: 1.6rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Layout */
-.container {
+.grid-container {
   display: grid;
   grid-template-areas:
     "header"
@@ -26,5 +25,42 @@ body {
 
 header {
   grid-area: header;
-  background-color: #363537;
+  background-color: #161b33ff;
+}
+main {
+  grid-area: main;
+  padding: 1rem;
+}
+footer {
+  grid-area: footer;
+  background-color: #161b33ff;
+  color: #ffffff;
+  text-align: center;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Casses ou atributos globais */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e15554ff;
+}
+
+header a {
+  color: #ffffff;
+  padding: 1rem;
+}
+
+a.marca {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
 }

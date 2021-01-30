@@ -13,12 +13,12 @@
 
 # Tecnologias utilizadas:
 
-- [ ] HTML 5
-- [ ] CSS
+- [x] HTML 5
+- [x] CSS
 - [ ] JavaScript
+- [ ] React Native
 - [ ] NodeJS
 - [ ] MongoDB
-- [ ] React Native
 - [ ] APIs
   - [ ] Google Maps Api
   - [ ] Paypal Payments
