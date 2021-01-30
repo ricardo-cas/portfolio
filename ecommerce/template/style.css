@@ -44,6 +44,9 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+.linha.centralizada {
+  justify-content: center;
+}
 
 /* Casses ou atributos globais */
 a {
