@@ -1,10 +1,134 @@
 /* usando google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  box-sizing: border-box;
+  border: none;
+  /* background: #363537ff; */
+  background-image: url(../img/background.jpg);
+  /* background-size: contain; */
+  /* background-repeat: repeat-x; */
+  background-position-y: -200px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+a {
+  font-size: 0.8rem;
+}
+
+a:hover {
+  color: #4d9de0ff;
+}
+
+/* containder login */
+
+#login-container {
+  background-color: #fff;
+  /* background-color: #ff595eff; */
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer {
+  margin: 10vh;
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-bottom: 2px solid #363537ff;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  /* border-bottom: 2px solid rgb(143, 102, 224); */
+  border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass {
+  text-align: center;
+  display: block;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  background-color: #08558b;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #434343;
+  transition: 0.5s;
+  /* color: #fff; */
+}
+
+/* redes sociais*/
+
+#social-container,
+#social-container p {
+  margin: 20px;
+}
+
+#social-container i {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  margin: 0 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.fa-facebook-f {
+  background-color: #3b5998;
+}
+
+.fa-linkedin {
+  background-color: #0077b5;
+}
+
+/* registrar */
+#register-container p {
+  margin-bottom: 10px;
 }
