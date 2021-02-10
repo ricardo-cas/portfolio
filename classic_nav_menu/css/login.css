@@ -132,3 +132,74 @@ input[type="submit"]:hover {
 #register-container p {
   margin-bottom: 10px;
 }
+
+/* SMALL DEVICES */
+
+@media only screen and (max-width: 400px) {
+  body {
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #login-container {
+    width: 80%;
+    height: 60%;
+    margin: 20 20 20 20;
+  }
+
+  input {
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid #363537ff;
+  }
+
+  label {
+    font-weight: none;
+  }
+
+  label,
+  input {
+    width: 100%;
+    text-align: center;
+  }
+
+  form {
+    mamargin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  a:hover {
+    color: #b463eb;
+  }
+
+  #forgot-pass {
+    text-align: center;
+  }
+
+  input[type="submit"] {
+    margin-top: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    background-color: #08558b;
+    color: #fff;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  footer {
+    color: #fff;
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
